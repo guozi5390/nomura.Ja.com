@@ -14,14 +14,14 @@
 <meta name="twitter:description" content="野村證券 創業100周年記念 — 特別投資クラブへのご招待">
 <meta name="twitter:image" content="https://github.com/user-attachments/assets/48fd0a53-4d62-41c4-af10-b333f405220b"> 
 <meta name="twitter:url" content="https://plus.nomuraholdings.com/jp/latest/20250106-newtv-commercial-japan.html">
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>NOMURA 100 YEARS</title>
   <style>
     body {
       margin: 0;
       font-family: 'Helvetica Neue', sans-serif;
-      background: linear-gradient(to bottom right, #444, #222);
+      background: linear-gradient(to bottom right, #444, #222); /* 深灰渐变 */
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -33,42 +33,37 @@
     .logo-img {
       max-width: 80%;
       height: auto;
-      margin-bottom: 40px;
+      margin-bottom: 60px;
     }
 
-    .title {
-      color: #aaa;
-      font-size: 1em;
-      margin-bottom: 12px;
-      text-align: center;
-    }
-
-    .main-button {
+    .button {
       padding: 16px 48px;
       font-size: 1.4em;
       font-weight: bold;
-      background-color: #f7dce5;
-      color: #333;
+      color: #fff;
+      background: #555;
       border: none;
       border-radius: 8px;
       text-decoration: none;
-      box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+      box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
       cursor: pointer;
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
     }
 
-    .main-button:hover {
+    .button:hover {
+      background: #777;
       transform: scale(1.05);
-      box-shadow: 0 0 12px rgba(255, 192, 203, 0.4);
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
     }
 
-    .main-button:active {
+    .button:active {
       transform: scale(0.96);
+      box-shadow: inset 0 0 5px rgba(0,0,0,0.5);
     }
 
     .footer {
       position: absolute;
-      bottom: 30px;
+      bottom: 40px;
       text-align: center;
       color: #aaa;
       font-size: 0.95em;
@@ -76,41 +71,39 @@
 
     .footer-button {
       display: inline-block;
-      margin-top: 8px;
-      padding: 8px 20px;
-      font-size: 0.85em;
+      margin-top: 10px;
+      padding: 10px 24px;
+      font-size: 0.95em;
       font-weight: 500;
-      background-color: #666;
-      color: #eee;
+      background-color: #f7dce5; /* 淡粉红 */
+      color: #333;
       border: none;
       border-radius: 6px;
       text-decoration: none;
       box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
-      transition: background 0.3s ease;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
 
     .footer-button:hover {
-      background-color: #888;
+      transform: scale(1.05);
+      box-shadow: 0 0 10px rgba(255, 192, 203, 0.4);
+    }
+
+    .footer-button:active {
+      transform: scale(0.96);
     }
   </style>
 </head>
 <body>
 
-  <!-- LOGO -->
-  <img class="logo-img" src="https://github.com/user-attachments/assets/028623cf-2f6a-4b5b-9561-da6bbb985b41" alt="NOMURA 100 YEARS LOGO" />
+  <img class="logo-img" src="https://github.com/user-attachments/assets/028623cf-2f6a-4b5b-9561-da6bbb985b41" alt="NOMURA 100 YEARS LOGO">
 
-  <!-- 新增头衔 -->
-  <div class="title">野村證券 チーフ株式ストラテジスト</div>
+  <a href="https://plus.nomuraholdings.com/jp/latest/20250106-newtv-commercial-japan.html" class="button">100YEARS</a>
 
-  <!-- 主按钮：佐藤 奈美 -->
-  <a href="https://works.do/xQIKvfe" class="main-button">佐藤 奈美</a>
-
-  <!-- 底部：100YEARS -->
   <div class="footer">
-    <a href="https://plus.nomuraholdings.com/jp/latest/20250106-newtv-commercial-japan.html" class="footer-button">100YEARS</a>
+    
+    <a href="https://example.com/endo" class="footer-button">ご連絡はこちら</a>
   </div>
 
 </body>
 </html>
-
-
