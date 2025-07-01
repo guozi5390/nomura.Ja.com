@@ -1,0 +1,1 @@
+# nomura.Ja.com
